@@ -70,8 +70,16 @@ The data was collected from xeno-canto, a website containing wildlife audio reco
 
 ### Feature Extraction
 - **Log Mel Spectrograms:** The segmented audio is converted into log-mel spectrograms using the wave_to_examples function from the VGGish library. This conversion involves transforming the raw audio waveform into a time-frequency representation, capturing the intensity of different frequency components over time.
+
+![alt text](assets/image-5.png)
+
 - **Embedding Extraction:** The log-mel spectrograms are fed into the VGGish model to generate embeddings. This step involves projecting the input spectrograms through a series of convolutional layers, extracting hierarchical audio features. These features are condensed into a fixed-size embedding vector.
+
+![alt text](assets/image-4.png)
+
 - **Embedding Post-Processing:** The raw embeddings are post-processed to ensure consistency and improve their usability. This step applies Principal Component Analysis (PCA) to the embeddings, reducing their dimensionality and normalizing the feature distribution.
+
+![alt text](assets/image-3.png)
 
 ## Hypotheses
 - **Distinct Clustering Hypothesis:** The embeddings for each bird species form distinct clusters in the PCA space, indicating that the feature extraction process successfully captures unique characteristics of each species' calls.
