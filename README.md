@@ -88,8 +88,12 @@ The log-mel spectrograms and embeddings were used to train the classifiers. The 
 ### Supervised Learning Results
 The performance of the classifiers was evaluated using various metrics, including precision, recall, F1-score, and accuracy. The results provide a comprehensive view of the classifiers' effectiveness in distinguishing between bird species based on their calls.
 
+![alt text](assets/image.png)
+
 ### Unsupervised Learning Results
 The performance of various clustering models was evaluated using silhouette scores, adjusted Rand Index (ARI), and clustering accuracy. These metrics provide insights into the clustering models' ability to group bird call embeddings effectively.
+
+![alt text](assets/image-1.png)
 
 ## Conclusion
 The study highlights the importance of selecting appropriate models for bird call classification tasks. Supervised learning models, particularly CNNs and Random Forests, excel at this task when trained with well-processed embeddings. Unsupervised learning approaches can benefit from further refinement to improve clustering accuracy and better capture the underlying structure of bird call data. These insights contribute to the broader understanding of machine learning applications in ecological and environmental research.
