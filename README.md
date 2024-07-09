@@ -30,7 +30,7 @@ Ensure the following directory structure in your working directory:
 ├── /data
 ├── /vggish
 ├── /models
-└── ├── BirdCallClassifier.ipynb
+└── BirdCallClassifier.ipynb
 ```
 
 ### Google Drive Links for Data
