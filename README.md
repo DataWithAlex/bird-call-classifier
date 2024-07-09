@@ -5,7 +5,8 @@ This project focuses on developing a machine learning model to classify bird spe
 
 ### Full Research Report Linked Below
 
-https://drive.google.com/file/d/1IcBMQZPly0PNGvMnhvHOJL0oIaQFgQ-s/view?usp=sharing 
+[Google Drive Link](https://drive.google.com/file/d/1IcBMQZPly0PNGvMnhvHOJL0oIaQFgQ-s/view?usp=sharing )
+
 
 ## Introduction
 Bird call classification is a challenging task that involves identifying bird species based on their vocalizations. This capability has significant implications for ecological research, wildlife conservation, and environmental monitoring. Humans can learn to recognize bird species by their calls through experience; however, automating this process using machine learning requires converting audio signals into numerical representations that machines can interpret. This project aims to develop and evaluate a machine learning-based bird call classifier using audio recordings from three bird species: Blue Jay, Cardinal, and Red-bellied Woodpecker.
