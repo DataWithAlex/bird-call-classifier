@@ -26,10 +26,12 @@ Bird call classification is a challenging task that involves identifying bird sp
 ### Directory Structure
 Ensure the following directory structure in your working directory:
 
+``` markdown
 ├── /data
 ├── /vggish
 ├── /models
 └── ├── BirdCallClassifier.ipynb
+```
 
 ### Google Drive Links for Data
 - **Models Folder:** [Google Drive Link](https://drive.google.com/drive/folders/1221pOi4EO8e-Lc1FVUl4_M2t0aGDgfpY?usp=sharing)
